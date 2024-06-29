@@ -1,0 +1,11 @@
+.category-btn {
+  @include btnBlue;
+  width: 150px;
+  padding-left: 0px;
+  &:hover {
+    background-color: $Blue-medium;
+  }
+}
+.category-btn-active {
+  background-color: $Blue-dark;
+}
